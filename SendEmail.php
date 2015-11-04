@@ -11,7 +11,7 @@ use yii\base\ModelEvent;
 class SendEmail extends Behavior
 {
     public $emailField='email';
-    public $view='email/email';
+    public $view;
     public $subject;
     public $from;
     public $data;
