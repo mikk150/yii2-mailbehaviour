@@ -1,0 +1,11 @@
+{
+    "name": "mikk150/yii2-mailerbehavior",
+    "requires" :{
+        "yiisoft/yii2": ">=2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "mikk150\\mailerbehavior\\": ""
+        }
+    }
+}
