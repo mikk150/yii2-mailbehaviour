@@ -83,8 +83,8 @@ class SendEmail extends Behavior
             return Yii::$app->params['adminEmail'];
         }
 
-        if (is_callable($this->view)) {
-            return call_user_func($this->view, $this->owner);
+        if (is_callable($this->from)) {
+            return call_user_func($this->from, $this->owner);
         }
 
         return $this->from;
